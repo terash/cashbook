@@ -1,0 +1,14 @@
+<resources>
+<color name="background">#ffe6f0ff</color>
+<color name="hilite">#ffffffff</color>
+<color name="dark">#6456648f</color>
+<color name="foreground">#ff000000</color>
+
+
+
+
+<color name="light">#64c6d4ef</color>
+<color name="blue">#ff0000ff</color>
+<color name="black">#ff000000</color>
+<color name="red">#ffff0000</color>
+</resources>

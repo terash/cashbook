@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">おこづかい帳</string>
+<string name="this_month_balance">今月の残金</string>
+<string name="this_month_left">今月残り</string>
+<string name="entry_income">収入登録</string>
+<string name="entry_expenditure">支出登録</string>
+<string name="this_month_breakdown">今月の内訳</string>
+<string name="this_year_transition">今年の推移</string>
+<string name="search_month_data">月次検索</string>
+<string name="exit_label">終了</string>
+<string name="yen_label">円</string>
+<string name="day_label">日</string>
+<string name="main_title">のおこづかい帳</string>
+<string name="welcome">こづかい帳へようこそ！名前を入力してね(^-^)</string>
+<string name="user_entry">登録</string>
+<string name="user_entry_label">ユーザ登録</string>
+<string name="setting_button">設定</string>
+<string name="expenditure_title">支出を登録してね！</string>
+<string-array name="expenditureType"><item>食費</item>
+<item>光熱・水道</item>
+<item>家具・家事用品</item>
+<item>服飾代</item>
+<item>保健医療</item>
+<item>交通費</item>
+<item>書籍代</item>
+<item>娯楽品</item>
+</string-array>
+<string name="note_label">備考</string>
+<string name="expenditure_label">支出額</string>
+<string name="item_label">項目</string>
+<string name="income_title">収入を登録しよう☆</string>
+<string-array name="incomeType"><item>給与</item>
+<item>賞与</item>
+<item>臨時収入</item>
+
+</string-array>
+<string name="income_label">収入額</string>
+</resources>

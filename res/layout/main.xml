@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/background"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip"
+    >
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:paddingLeft="10dip"
+    android:paddingTop="10dip">
+    <TableLayout
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center"
+        android:stretchColumns="*">
+    <TableRow>
+    
+      <TextView  
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:id="@+id/userName" 
+        android:text=""
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dip"
+        android:textSize="24.5sp"
+        android:textColor="@color/blue"/>
+      <TextView  
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text="@string/main_title"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dip"
+        android:textSize="20sp"
+        android:textColor="@color/foreground"/>
+     <TextView  
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text=""
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dip"
+        android:textSize="20sp"
+        android:textColor="@color/foreground"/>
+        <Button
+          android:id="@+id/entry_expenditure_button"
+          android:text="@string/entry_expenditure" />
+      </TableRow>  
+      <TableRow>
+        <TextView
+          android:text="@string/this_month_balance"
+          android:textColor="@color/foreground" />
+        <TextView
+          android:id="@+id/thisMonthBalance"
+          android:textSize="30sp"
+          android:layout_gravity="right"/>
+        <TextView
+          android:text="@string/yen_label"
+          android:textColor="@color/foreground"
+          android:layout_gravity="bottom" />
+        <Button
+          android:id="@+id/entry_income_button"
+          android:text="@string/entry_income" />
+      </TableRow>
+      <TableRow
+          android:layout_marginTop="5dip">
+        <TextView
+          android:text="@string/this_month_left"
+          android:textColor="@color/foreground" />
+        <TextView
+          android:id="@+id/thisMonthLeft"
+          android:textSize="30sp"
+          android:layout_gravity="right"/>
+        <TextView
+          android:text="@string/day_label"
+          android:textColor="@color/foreground"
+          android:layout_gravity="bottom" />
+        <Button
+          android:id="@+id/setting_button"
+          android:text="@string/setting_button" />
+      </TableRow>
+      <TableRow
+          android:layout_marginTop="20dip">
+        <Button
+          android:id="@+id/this_month_breakdown_button"
+          android:text="@string/this_month_breakdown" />
+        <Button
+          android:id="@+id/this_year_transition_button"
+          android:text="@string/this_year_transition" />
+        <Button
+          android:id="@+id/search_month_data_button"
+          android:text="@string/search_month_data" />
+        <Button
+          android:id="@+id/exit_button"
+          android:text="@string/exit_label" />
+      </TableRow>
+        
+      
+      </TableLayout>
+  </LinearLayout>
+</LinearLayout>
