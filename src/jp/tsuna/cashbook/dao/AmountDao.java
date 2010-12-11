@@ -15,7 +15,7 @@ public class AmountDao {
             amountDao = new AmountDao();
         }
         return amountDao;
-            }
+    }
     
     
     public Cursor getAmount() {
